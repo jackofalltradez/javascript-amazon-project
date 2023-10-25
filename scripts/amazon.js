@@ -1,3 +1,5 @@
+import { cart } from '../data/cart.js'; // Import variable out of a module.
+
 let productsHTML = '';
 products.forEach((product) => {
   productsHTML += `
